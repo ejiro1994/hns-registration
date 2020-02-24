@@ -107,3 +107,21 @@ body {
   ul:first-child {
     margin-top: 150px
   }
+
+
+  .event-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #000;
+    text-transform: uppercase
+}
+
+.event-date {
+  font-size: 12px;
+  font-weight: 400;
+}
+.event-location {
+  font-weight: 700;
+  text-transform: uppercase;
+}
