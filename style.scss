@@ -61,7 +61,18 @@ body {
     width: 100vw;
   }
   .gradient {
-    background-image: radial-gradient( circle at 36% 48%, #000000, rgba(11, 39, 65, 0.32) 87%, rgba(0, 0, 0, 0.0));
+    // background-image: radial-gradient( circle at 36% 48%, #000000, rgba(11, 39, 65, 0.32) 87%, rgba(0, 0, 0, 0.0));
+    background: linear-gradient(141deg, rgba(98,0,240,.5) 0%, rgba(0,0,0,.5) 22%, rgba(0,0,0,.5) 51%, rgba(140,88,0,.5) 67%, rgba(0,0,0,1) 100%);
+    width: 100vw;
+    height: calc(100vh);
+    min-height: 600px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+  }
+  .gradient-2 {
+    // background: linear-gradient(141deg, rgba(98,0,240,.5) 0%, rgba(0,0,0,.5) 22%, rgba(0,0,0,.5) 51%, rgba(140,88,0,.5) 67%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 10%, rgba(32, 58, 67, 0.385) 40%, rgba(13, 25, 30, 0.773)70%,rgb(0, 0, 0)95%);
     width: 100vw;
     height: calc(100vh);
     min-height: 600px;
