@@ -92,7 +92,7 @@ video {
 .nav-cta {
   padding: 0.6rem 1.9rem;
   background: linear-gradient(to right, #FF9700 0%, #FFE400 51%, #FF9700 100%);
-  background: #5773fe;
+  background: red;
   border-radius: 30px;
   cursor: pointer;
   text-transform: uppercase;
