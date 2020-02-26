@@ -92,18 +92,13 @@ video {
 .nav-cta {
   padding: 0.6rem 1.9rem;
   background: linear-gradient(to right, #FF9700 0%, #FFE400 51%, #FF9700 100%);
-  background: red;
   border-radius: 30px;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 100;
-}
-
-.cta-success {
-  display: inline;
-  height: 20px;
-  width: 20px;
+  text-decoration: none;
+  color: #000;
 }
 
 .menu-nav ul a {
