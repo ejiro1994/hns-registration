@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <!-- new animation js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.3/gsap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.3/CSSRulePlugin.min.js">
+        <!-- legacy animation js library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSRulePlugin.min.js">
     <title>first page</title>
 </head>
 
@@ -15,8 +22,13 @@
 
         <div class="vid-container">
             <div class="gradient"></div>
-            <div class="gradient-2"></div>
-            <video autoplay loop playsinline muted src="vids/HNS 2020- Highlight Reel - (Website).mp4" class="video-bg"
+            <div class="gradient-2">
+                <p>
+                    &copy; holy nation summit
+
+                </p>
+            </div>
+            <video autoplay loop playsinline muted src="vids/hns-bg-video.mp4" class="video-bg"
                 poster="imgs/poster.png"></video>
         </div>
 
@@ -38,9 +50,9 @@
         </section>
         <!-- switchable content -->
         <main>
-            <!-- <h1>first page</h1> -->
 
-            <!-- <a href="/agenda.html">go to next page</a> -->
+
+
             <nav class="menu-nav">
                 <ul>
                     <li><a href="/hns-registration/agenda.html">
@@ -61,6 +73,10 @@
                 </ul>
             </nav>
         </main>
+        <footer>
+            <h3>&copy; 2020 - holy nation summit   &nbsp;<img src="imgs/HNS_Lion.png" alt="">  </h3>
+         
+        </footer>
         <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
         <script defer src="index.js"></script>
     </div>
