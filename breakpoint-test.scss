@@ -1,0 +1,50 @@
+$green1: #a7ff83;
+$green2: #17b978;
+$green3:#086972;
+$green4:#071a52;
+
+.layer {
+    height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    h3 {
+        font-size: 90px;
+        color: #17b978;
+    }
+
+
+
+    @include media('<=LGdesktop') {
+        background: $green4;
+        &::before {
+            content: 'LGdesktop viewport';
+        }
+    }
+    @include media('<=desktop') {
+        background: $green3;
+        &::before {
+            content: 'desktop viewport';
+        }
+    }
+
+    @include media('<=tablet') {
+        background: $green2;
+        &::before {
+            content: 'tablet viewport';
+        }
+    }
+
+
+    @include media('<=phone') {
+        background: $green1;
+
+        &::before {
+            content: 'phone viewport';
+            
+        }
+    }
+}

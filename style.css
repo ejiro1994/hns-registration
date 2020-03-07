@@ -1,3 +1,53 @@
+/**
+*
+* Testing
+*
+**/
+.layer {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.layer h3 {
+  font-size: 90px;
+  color: #17b978;
+}
+@media (max-width: 1920px) {
+  .layer {
+    background: #071a52;
+  }
+  .layer::before {
+    content: "LGdesktop viewport";
+  }
+}
+@media (max-width: 1366px) {
+  .layer {
+    background: #086972;
+  }
+  .layer::before {
+    content: "desktop viewport";
+  }
+}
+@media (max-width: 768px) {
+  .layer {
+    background: #17b978;
+  }
+  .layer::before {
+    content: "tablet viewport";
+  }
+}
+@media (max-width: 360px) {
+  .layer {
+    background: #a7ff83;
+  }
+  .layer::before {
+    content: "phone viewport";
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
